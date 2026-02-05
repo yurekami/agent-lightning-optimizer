@@ -1,0 +1,35 @@
+{
+  "name": "@agent-lightning/instrumentation",
+  "version": "1.0.0",
+  "description": "Lightweight instrumentation for Claude Agent SDK to capture trajectories for Agent Lightning Optimizer",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "claude",
+    "agent",
+    "sdk",
+    "instrumentation",
+    "trajectories",
+    "apo",
+    "prompt-optimization"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "@anthropic-ai/claude-agent-sdk": ">=0.1.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
